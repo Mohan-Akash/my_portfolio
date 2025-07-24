@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <title>B.M.V.Akash</title>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header id="nav" class="nav">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+<section id="home" class="home-section-modern">
+  <div class="overlay-glass">
+    <div class="home-container">
+
+      <!-- Left Column: Content -->
+      <div class="home-text">
+        <h1>Hello! 👋</h1>
+        <h2>I'm <span class="typed-name" id="typed-name"></span></h2>
+        <p class="roles" id="role-typing"></p>
+
+        <div class="highlight-bar"></div>
+        <a href="#projects" class="btn-modern">🚀 View My Work</a>
+      </div>
+
+      <!-- Right Column: Image -->
+      <div class="home-image-modern">
+        <img src="images/ppp1.jpg" alt="My Photo" />
+      </div>
+
+    </div>
+    <div class="scroll-indicator">
+      <a href="#about"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  <hr />
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h1 class="section-title">About Me</h1>
+    <div class="about-content side-by-side">
+      <div class="about-text">
+        <p>
+          I am Mohana Venkata Akash Bannaravuri, a Computer Science Engineering graduate from KHIT, Guntur. I have a solid foundation in Python, SQL, and Machine Learning, with hands-on experience in developing end-to-end data-driven applications. My expertise includes data preprocessing, model development, and Natural Language Processing using tools like pandas, scikit-learn, and NLTK. I have also worked on Generative AI projects using Hugging Face Transformers. Additionally, I am proficient in front-end technologies such as HTML, CSS, and JavaScript for building responsive web interfaces.
+        </p>
+      </div>
+     
+    </div>
+  </section>
+
+  <hr />
+
+  <!-- Projects Section -->
+<section id="projects" class="projects-section">
+  <h2 class="section-title">My <span>Projects</span></h2>
+  <p class="section-subtitle">Here are a few projects I've worked on recently.</p>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <img src="./images/fake.png" alt="Fake News Project" />
+      <h3>Fake News Analysis in Social Media</h3>
+      <p>Web app using Python, Flask, and NLP to classify fake vs real news using TF-IDF and ML techniques.</p>
+      <a href="https://github.com/Mohan-Akash/Fake-News-Analysis-in-Social-Media" target="_blank" class="btn-project">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="./images/malaria.png" alt="Malaria Project" />
+      <h3>Malaria Detection using CNN</h3>
+      <p>CNN model with TensorFlow & OpenCV to detect malaria from cell images. Trained & evaluated with high accuracy.</p>
+      <a href="https://github.com/Mohan-Akash/Detecting-Malaria-using-deep-learning" target="_blank" class="btn-project">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="./images/genai.png" alt="GenAI Summarizer" />
+      <h3>Generative AI-Based Text Summarizer</h3>
+      <p>Text summarization using Hugging Face Transformers (T5/BART) with a Streamlit UI for interactive demos.</p>
+      <a href="https://github.com/Mohan-Akash/genai-text-summarizer" target="_blank" class="btn-project">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="./images/sugarcane.jpg" alt="Sugarcane Analysis" />
+      <h3>Sugarcane Production Analysis</h3>
+      <p>Analyzed production trends using Pandas, Matplotlib, and Seaborn for insight into global yield and output.</p>
+      <a href="https://github.com/Mohan-Akash/Sugarcane_Project-Data-Analysis-" target="_blank" class="btn-project">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="./images/car_price.jpg" alt="Car Price Prediction" />
+      <h3>Car Price Prediction</h3>
+      <p>Regression model in Scikit-learn predicting car prices using EDA, feature engineering, and model metrics.</p>
+      <a href="https://github.com/Mohan-Akash/Linear_Regression_Models-/blob/main/Car_Price_Prediction.ipynb" target="_blank" class="btn-project">View Project</a>
+    </div>
+
+
+
+    <div class="project-card">
+      <img src="./images/powerbi.png" alt="COVID-19 Dashboard" />
+      <h3>COVID-19 Data Dashboard</h3>
+      <p>Interactive Power BI dashboard showing global COVID-19 trends, recovery, and comparisons.</p>
+      <a href="https://github.com/Mohan-Akash/Covid19_Analysis-Using-Power-Bi" target="_blank" class="btn-project">View Project</a>
+    </div>
+
+  </div>
+</section>
+
+  <hr />
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+  <h1 class="section-title">Skills</h1>
+  <div class="skill-grid">
+    <div class="skill-card">
+      <i class="fa-solid fa-code"></i>
+      <h3>Programming Languages</h3>
+      <p>Python, C, C++, Java</p>
+    </div>
+    <div class="skill-card">
+      <i class="fa-solid fa-brain"></i>
+      <h3>Data & Machine Learning</h3>
+      <p>Pandas, NumPy, Scikit-learn, OpenCV, Power BI, Generative AI</p>
+    </div>
+    <div class="skill-card">
+      <i class="fa-solid fa-laptop-code"></i>
+      <h3>Web Development</h3>
+      <p>HTML, CSS, JavaScript (basics), MySQL, Flask</p>
+    </div>
+    <div class="skill-card">
+      <i class="fa-solid fa-toolbox"></i>
+      <h3>Tools & Platforms</h3>
+      <p>Git, Streamlit, Jupyter, VS Code</p>
+    </div>
+    <div class="skill-card">
+      <i class="fa-solid fa-people-group"></i>
+      <h3>Soft Skills</h3>
+      <p>Teamwork, Communication, Problem Solving</p>
+    </div>
+  </div>
+</section>
+
+  <hr />
+
+<!-- Education Section -->
+<section id="education" class="education">
+  <h1 class="section-title">Education</h1>
+  <div class="education-timeline">
+    <div class="education-entry">
+      <h3><i class="fa-solid fa-graduation-cap"></i> BTech in Computer Science and Engineering</h3>
+      <p>Kallam Haranadhareddy Institute of Technology, Guntur, AP &nbsp;&bull;&nbsp; CGPA: 8.3 (2021–2025)</p>
+    </div>
+    <div class="education-entry">
+      <h3><i class="fa-solid fa-school"></i> Class 12th – CBSE</h3>
+      <p>Sri Vivekananda Central School &nbsp;&bull;&nbsp; Percentage: 82% &nbsp;&bull;&nbsp; Year: 2021</p>
+    </div>
+    <div class="education-entry">
+      <h3><i class="fa-solid fa-school-flag"></i> Class 10th – CBSE</h3>
+      <p>Sri Vivekananda Central School &nbsp;&bull;&nbsp; Percentage: 89% &nbsp;&bull;&nbsp; Year: 2019</p>
+    </div>
+  </div>
+</section>
+
+<hr />
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <h1 class="section-title">Contact</h1>
+  <div class="contact-grid">
+
+    <div class="contact-card">
+      <i class="fa-solid fa-envelope"></i>
+      <h3>Email</h3>
+      <p><a href="mailto:mohanakash48@gmail.com">mohanakash48@gmail.com</a></p>
+    </div>
+
+    <div class="contact-card">
+      <i class="fa-brands fa-linkedin"></i>
+      <h3>LinkedIn</h3>
+      <p><a href="https://www.linkedin.com/in/mohan-akash-a765412a9" target="_blank">linkedin.com/in/mohan-akash-a765412a9</a></p>
+    </div>
+
+    <div class="contact-card">
+      <i class="fa-solid fa-phone"></i>
+      <h3>Phone</h3>
+      <p><a href="tel:+919391517164">+91 9391517164</a></p>
+    </div>
+
+    <div class="contact-card">
+      <i class="fa-brands fa-github"></i>
+      <h3>GitHub</h3>
+      <p><a href="https://github.com/Mohan-Akash" target="_blank">github.com/Mohan-Akash</a></p>
+    </div>
+
+  </div>
+</section>
+<hr />
+
+<!-- Footer -->
+<footer class="footer">
+  <p>
+    © 2025 <strong>B.M.V. Akash</strong> &nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/mohan-akash-a765412a9" target="_blank">
+      <i class="fa-brands fa-linkedin"></i> LinkedIn
+    </a>
+    &nbsp;|&nbsp;
+    <a href="https://github.com/Mohan-Akash" target="_blank">
+      <i class="fa-brands fa-github"></i> GitHub
+    </a>
+  </p>
+</footer>
+<script>
+  const name = "Mohana Venkata Akash Bannaravuri";
+  let i = 0;
+  function typeName() {
+    if (i < name.length) {
+      document.getElementById("typed-name").textContent += name.charAt(i);
+      i++;
+      setTimeout(typeName, 100);
+    }
+  }
+  window.onload = typeName;
+</script>
+<script>
+  const roles = [
+    "Aspiring Data Scientist",
+    "Aspiring Data Analyst",
+    "Aspiring ML Enthusiast",
+    "Aspiring Python Developer"
+  ];
+
+  let currentRole = 0;
+  const roleElement = document.getElementById("role-typing");
+
+  function rotateRole() {
+    roleElement.textContent = roles[currentRole];
+    currentRole = (currentRole + 1) % roles.length;
+    setTimeout(rotateRole, 2500);
+  }
+
+  rotateRole();
+</script>
+<div class="custom-cursor"></div>
+<script>
+  const cursor = document.querySelector(".custom-cursor");
+
+  document.addEventListener("mousemove", (e) => {
+    cursor.style.left = e.clientX + "px";
+    cursor.style.top = e.clientY + "px";
+  });
+</script>
+
+
+
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
